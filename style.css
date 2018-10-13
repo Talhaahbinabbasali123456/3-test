@@ -1,0 +1,177 @@
+/* write your CSS here */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img {
+    width: 50px;
+    height: 50px;
+}
+
+.my-result {
+    background-color: #d1eefb;
+    width: 80%;
+    margin: 20px 0px;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #094076;
+}
+
+.myy {
+    color: #8995a0!important;
+    background-color: white!important;
+    border: 1px solid #8995a0!important;
+    border-radius: 4px;
+    height: 40px!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myy2 {
+    color: white!important;
+    background-color: #4bade9!important;
+    border: 1px solid #4bade9!important;
+    border-radius: 4px;
+    font-weight: bold!important;
+    height: 40px!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.padd {
+    display: flex!important;
+    justify-content: flex-end!important;
+    align-items: center!important;
+    padding: 0px;
+}
+
+#amount {
+    font-weight: bold;
+    padding: 5px 0px;
+}
+
+.navvv {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+.my-nav {
+    display: flex !important;
+    justify-content: left !important;
+    align-items: left !important;
+    flex-direction: column !important;
+    text-align: left!important;
+}
+
+.color {
+    padding: 0px 10px;
+    background-color: white;
+}
+
+.main-section {
+    margin-top: 20vh;
+    max-width: 80%;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.img2 {
+    height: 45vh;
+    width: 40%;
+    max-width: 40%;
+}
+
+.price {
+    color: #73a83a
+}
+
+.price-parent {
+    font-size: 18px;
+    color: #094076;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.description {
+    padding: 15px 15px 15px 0px;
+    color: #094076;
+}
+
+.heading {
+    padding: 0px;
+    text-align: left!important;
+    font-size: 23px;
+    margin: 0px;
+}
+
+.desc {
+    margin: 5px 0px;
+    padding: 0px;
+    color: #094076;
+    text-align: left!important;
+    font-size: 18px;
+}
+
+.name {
+    font-weight: bold;
+    margin: 5px 0px;
+    padding: 0px;
+    color: #094076;
+    text-align: left!important;
+    font-size: 18px;
+}
+
+input {
+    text-align: center!important;
+    width: 20%!important;
+    padding: 0px 10px!important;
+}
+
+.desc1 {
+    margin: 0px 0px;
+    padding: 0px;
+    color: black;
+    text-align: left!important;
+    font-size: 15px;
+}
+
+@media (min-width: 200px) and (max-width: 600px) {
+    .main-section {
+        margin-top: 20vh;
+        padding: 5px;
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: white;
+    }
+    .img2 {
+        height: 60vh;
+        width: 45%;
+        max-width: 45%;
+        min-width: 45%;
+    }
+    .my-result {
+        background-color: #d1eefb;
+        width: 100%;
+        margin: 20px 0px;
+        height: 8vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #094076;
+    }
+}
